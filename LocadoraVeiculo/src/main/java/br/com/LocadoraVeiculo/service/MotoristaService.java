@@ -25,7 +25,6 @@ public class MotoristaService {
     }
 
     public ListagemMotoristaDTO toDTO(Motorista motorista) {
-        return new ListagemMotoristaDTO(motorista.getNome(), motorista.getCpf(), motorista.getEmail(), motorista.getNumeroCNH());
+        return new ListagemMotoristaDTO(motorista.getNome(), motorista.getEmail(), motorista.getNumeroCNH());
     }
-
 }
